@@ -14,7 +14,7 @@ namespace RESTcarsCD.Controllers.Tests
         public void GetTest()
         {
             IEnumerable<Car> all = controller.Get();
-            Assert.AreEqual(2, all.Count());
+            Assert.AreEqual(20, all.Count());
             Assert.IsNotNull(controller);
         }
 
