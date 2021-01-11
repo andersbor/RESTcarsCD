@@ -20,7 +20,7 @@ jobs:
       with:
         dotnet-version: '3.1.102'
 
-    - name: Cleaning
+    - name: Cleaning # https://github.com/zkSNACKs/WalletWasabi/issues/945
       run: dotnet clean
       
     - name: Build with dotnet
