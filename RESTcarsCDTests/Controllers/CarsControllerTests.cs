@@ -13,8 +13,8 @@ namespace RESTcarsCD.Controllers.Tests
         [TestMethod()]
         public void GetTest()
         {
-            //IEnumerable<Car> all = controller.Get();
-            //Assert.AreEqual(2, all.Count());
+            IEnumerable<Car> all = controller.Get();
+            Assert.AreEqual(2, all.Count());
             Assert.IsNotNull(controller);
         }
 
