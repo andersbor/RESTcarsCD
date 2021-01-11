@@ -8,7 +8,7 @@ namespace RESTcarsCD.Controllers.Tests
     [TestClass()]
     public class CarsControllerTests
     {
-        //private CarsController controller = new CarsController();
+        private CarsController controller = new CarsController();
 
         [TestMethod()]
         public void GetTest()
