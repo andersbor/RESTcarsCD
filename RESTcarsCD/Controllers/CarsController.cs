@@ -29,9 +29,9 @@ namespace RESTcarsCD.Controllers
 
         // GET api/<CarsController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Car GetById(int id)
         {
-            return "value";
+            return Data.FirstOrDefault(car => car.Id==id);
         }
 
         // POST api/<CarsController>
