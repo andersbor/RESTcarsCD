@@ -21,7 +21,9 @@ namespace RESTcarsCD.Controllers.Tests
         [TestMethod()]
         public void GetByIdTest()
         {
-
+            Car car = controller.GetById(1);
+            Assert.IsNotNull(car);
+            Assert.IsNull(controller.GetById(3));
         }
 
         [TestMethod()]

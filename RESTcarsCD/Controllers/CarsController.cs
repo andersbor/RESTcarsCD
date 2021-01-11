@@ -36,8 +36,10 @@ namespace RESTcarsCD.Controllers
 
         // POST api/<CarsController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Car value)
         {
+            value.Id = _nextId++;
+            Data.Add(value);
         }
 
         // PUT api/<CarsController>/5
