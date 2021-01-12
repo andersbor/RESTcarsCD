@@ -13,7 +13,7 @@ namespace RESTcarsCD.Controllers
     [ApiController]
     public class OwnersController : ControllerBase
     {
-        private static readonly List<Owner> Data = new List<Owner>() { };
+        //private static readonly List<Owner> Data = new List<Owner>() { };
         // GET: api/<OwnersController>
         [HttpGet]
         public IEnumerable<string> Get()
