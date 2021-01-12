@@ -4,5 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="CarLibrary">
+      <HintPath>..\..\CarLibrary\CarLibrary\obj\Debug\netcoreapp3.1\CarLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 
 </Project>
